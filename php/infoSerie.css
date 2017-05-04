@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* PAGINA INFORMACION SERIE -------------------------------------- */
+
+.contenedor1{
+  margin-top:95px;
+  width:100%;
+  height:auto;
+  background-color: #333;
+  display: -webkit-flex;
+  display: flex;
+  padding:10px 0;
+}
+
+.contenedor2{
+  width:50%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+.contenedor3{
+  padding: 10px;
+  width:50%;
+  display: -webkit-flex;
+  display: flex;
+}
+
+div#info{
+  border-radius: 50px;
+  text-align:center;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 5%;
+  font-size: 17px;
+  margin:10px;
+}
+
+div#trailer{
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  margin:10px;
+}
+
+div#sinopsis{
+  margin: 0px 15px;
+  width: 60%;
+  background-color: white;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.4;
+  border-radius: 20px;
+  padding:0 10px;
+}
+
+div#actores{
+  margin:0px 15px;
+  width: 40%;
+  border-radius: 20px;
+  background-color: white;
+  padding:0 10px;
+  text-align: center;
+}
+
+/* VIDEOS ------------------------------------------------- */
+
+iframe{
+  margin: 0;
+  padding: 0;
+  border: none;
+}

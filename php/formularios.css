@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize:none;
+}
+
+.boton{
+	width: 100%;
+    background-color: #40AF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #20a049;
+}
+
+#marco{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px;
+	margin:50px auto;
+	width:400px;
+}
+
+#marco2{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin:50px auto;
+    width:600px;
+}
+
+/* MENSAJES DE ERROR ----------------------------------------*/
+
+.error{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+}

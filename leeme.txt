@@ -1,0 +1,10 @@
+Desde conectar.php se pueden modificar los datos utilizados para realizar la conexión a la BD.
+
+Al acceder a la página principal aparecerá un botón para crear la base de datos y las tablas,
+una vez creadas ya no aparecerá el botón en accesos posteriores.
+
+Después de crear la base de datos, es necesario registrarse. Se utilizan sesiones para impedir
+el acceso al resto de páginas sin autenticarse previamente.
+
+Desde la pestaña "opciones" de la barra superior se pueden cargar datos de prueba para comprobar
+el funcionamiento de la aplicación. También existe la opción de borrar la base de datos.
